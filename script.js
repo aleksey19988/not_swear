@@ -7,15 +7,12 @@ let phrases = [
     { text: 'прочитать новости и ужаснуться в комментариях', image: 'img/chat-box.png' },
     { text: 'посмотреть трейлер сериала и заодно первый сезон', image: 'img/big-bang-theory.png' },
     { text: 'проверить непрочитанное в Telegram-каналах', image: 'img/telegram.png' },
-
     { text: 'oткрыть для себя новую музыку', image: 'img/headphones.png' },
-    { text: 'вместе красить картину', image: 'img/art.png' },
     { text: 'принять ванну с пеной, добавив в неё пару капель любимого ароматического масла', image: 'img/wash.png' },
     { text: 'приготовить и неторопливо, смакуя каждый глоток, выпить какао или идеальный горячий шоколад', image: 'img/chocolate.png' },
     { text: 'включить лёгкий расслабляющий фильм — о чём-нибудь добром и без лишних вывертов', image: 'img/home-theater.png' },
     { text: 'pазбить мини-огород на подоконнике: через пару недель у вас будет собственная экологически чистая зелень', image: 'img/plant.png' },
     { text: 'приготовить обеды в офис заранее, разложить их по порциям и поместить в холодильник', image: 'img/lunch.png' },
-    { text: 'вместе начать собирать огромный пазл из тысячи деталей', image: 'img/jigsaw.png' }
   ];
   
   function getRandomElement(arr) {
@@ -39,7 +36,3 @@ let phrases = [
       advice.style.fontSize = '42px';
     }
   });
-  // for (let i = 0; i <= 2; i = i + 1) {
-  //   smoothly(phrase, 'textContent', phrases[i]);
-  //   smoothly(image, 'src', phrases[i]);
-  // }
